@@ -1,0 +1,57 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.gallery-container {
+  margin-bottom: 25px;
+}
+
+.gallary-list {
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+}
+
+.gallary-item {
+  background-color: #fff;
+  border-radius: 10px;
+  flex-basis: calc(33.3333% - 13.3333px);
+  transition: transform .25s, box-shadow .25s;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #00000014;
+}
+
+.gallary-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 16px #0000001f;
+}
+
+.gallary-photo {
+  height: 220px;
+}
+
+.gallary-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-btn {
+  color: #fff;
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 12px 28px;
+  font-size: 16px;
+  transition: background-color .25s, color .25s;
+  display: block;
+}
+
+.gallery-btn:hover {
+  color: green;
+  background-color: #adff2f;
+}
+/*# sourceMappingURL=goit-js-hw-017.599ca509.css.map */
