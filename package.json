@@ -1,0 +1,29 @@
+{
+  "name": "goit-js-hw-017",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anantoniuk/goit-js-hw-017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anantoniuk/goit-js-hw-017/issues"
+  },
+  "homepage": "https://github.com/anantoniuk/goit-js-hw-017#readme",
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.16.4",
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.10"
+  }
+}
